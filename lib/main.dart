@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:pawfinder_app/screen/comment/comment.dart';
+import 'package:pawfinder_app/screen/signup/signup.dart';
 
 import 'screen/login/login.dart';
 
@@ -18,7 +20,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: LoginScreen(),
+      home: CommentScreen(),
     );
   }
 }
